@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tulashi Nayak | Full Stack Developer & MCA Student</title>
+  <meta name="description" content="Portfolio of Tulashi Nayak - Full Stack Developer & MCA Student proficient in HTML, CSS, JavaScript, Java, Python, C++, MySQL, MongoDB.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+  <!-- Background Glow Accents -->
+  <div class="ambient-glow glow-top-right"></div>
+  <div class="ambient-glow glow-middle-left"></div>
+  <div class="ambient-glow glow-bottom-right"></div>
+
+  <!-- Main Bento Container -->
+  <div class="bento-wrapper">
+
+    <!-- ================= 1. HERO BENTO CARD ================= -->
+    <section class="bento-card hero-card" id="home">
+      <!-- Floating Navigation Bar -->
+      <nav class="nav-bar">
+        <a href="#home" class="nav-logo">
+          <span>Portfolio</span><span class="dot">.</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#education" class="nav-link" id="navEducationLink">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Mode" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon moon-icon"></i>
+            <i class="fa-solid fa-sun sun-icon"></i>
+          </button>
+          <a href="#contact" class="btn btn-hire">Hire Me</a>
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero Main Content Grid -->
+      <div class="hero-content">
+        <!-- Hero Left Column -->
+        <div class="hero-left">
+          <!-- Social Icons Row -->
+          <div class="social-row">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill social-insta" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill social-linkedin" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/nayaktulashi03" target="_blank" rel="noopener noreferrer" class="social-pill social-github" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:nayaktulashi981@gmail.com" class="social-pill social-mail" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+
+          <!-- Hero Headings -->
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Tulashi Nayak</span>
+          </h1>
+          <p class="hero-subtitle">
+            MCA Candidate & Full Stack Developer with strong expertise in Java, Python, C++, and Modern Web Development. Passionate about engineering clean, responsive, and performance-driven applications.
+          </p>
+
+          <!-- Hero CTA Action Buttons -->
+          <div class="hero-actions">
+            <a href="#resumeModal" class="btn btn-primary" id="downloadCvBtn">
+              <i class="fa-solid fa-download"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (3D Avatar Graphic) -->
+        <div class="hero-right">
+          <div class="avatar-stage">
+            <div class="glow-orb"></div>
+            <img src="assets/images/hero-character.png" alt="Tulashi Nayak 3D Developer Avatar" class="hero-avatar-img">
+            <!-- Decorative Tech Badges matching design -->
+            <div class="floating-pill-badge badge-top-right">
+              <i class="fa-solid fa-code"></i> Developer
+            </div>
+            <div class="floating-pill-badge badge-bottom-left">
+              <i class="fa-solid fa-graduation-cap"></i> MCA Scholar
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MIDDLE ROW: ABOUT & SKILLS ================= -->
+    <div class="bento-row two-columns">
+
+      <!-- ================= 2. ABOUT ME BENTO CARD ================= -->
+      <section class="bento-card about-card" id="about">
+        <div class="about-grid">
+          <!-- About Character on Star Graphic -->
+          <div class="about-visual">
+            <div class="star-badge-container">
+              <img src="assets/images/about-character.png" alt="Tulashi Creative Coder Avatar" class="about-avatar-img">
+            </div>
+          </div>
+
+          <!-- About Details -->
+          <div class="about-info">
+            <span class="section-tag">About Me</span>
+            <h2 class="card-heading">Creative Mind with Strong Technical Acumen</h2>
+            <p class="about-desc">
+              I am Tulashi Nayak, currently pursuing Master of Computer Applications (MCA) at NIIS Institute of Business Administration after graduating with BCA from SVM Autonomous College. I specialize in building end-to-end software solutions, combining frontend design with solid backend architecture and database systems.
+            </p>
+
+            <!-- Stats Counters -->
+            <div class="stats-row">
+              <div class="stat-item">
+                <span class="stat-number" data-target="4">4</span><span class="stat-plus">+</span>
+                <span class="stat-label">Qualifications</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="11">11</span><span class="stat-plus">+</span>
+                <span class="stat-label">Tech Skills</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number-text">MCA</span>
+                <span class="stat-label">NIIS (2025-27)</span>
+              </div>
+            </div>
+
+            <!-- Action to View Education Details -->
+            <div class="about-action-row">
+              <a href="#education" class="btn btn-outline" id="viewEducationBtn">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>View Education</span>
+              </a>
+              <a href="#skills" class="btn btn-ghost">
+                <span>Explore Skills</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 3. MY SKILLS BENTO CARD ================= -->
+      <section class="bento-card skills-card" id="skills">
+        <div class="skills-header">
+          <h2 class="card-heading">My Skills</h2>
+          <p class="card-subheading">Technologies and tools I work with to create amazing web & software experiences</p>
+        </div>
+
+        <!-- 8 to 10 Skills Grid matching user specifications -->
+        <div class="skills-grid">
+
+          <!-- Skill 1: HTML5 -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-html">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <span class="skill-name">HTML5</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">95%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-orange" style="--skill-pct: 95%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 2: CSS3 -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-css">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <span class="skill-name">CSS3</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">90%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-blue" style="--skill-pct: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-js">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">88%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-yellow" style="--skill-pct: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 4: Java -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-java">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <span class="skill-name">Java</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">86%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-red" style="--skill-pct: 86%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 5: Python -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-python">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <span class="skill-name">Python</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">85%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-cyan" style="--skill-pct: 85%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 6: C / C++ -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-cpp">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span class="skill-name">C / C++</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">82%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-indigo" style="--skill-pct: 82%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 7: MySQL / SQL -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-mysql">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <span class="skill-name">MySQL / SQL</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">88%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-teal" style="--skill-pct: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 8: MongoDB -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-mongo">
+                <i class="fa-solid fa-leaf"></i>
+              </div>
+              <span class="skill-name">MongoDB</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">80%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-green" style="--skill-pct: 80%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 9: Git & GitHub -->
+          <div class="skill-pill-card">
+            <div class="skill-meta">
+              <div class="skill-icon icon-github">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <span class="skill-name">Git & GitHub</span>
+              <div class="skill-value-wrap">
+                <span class="skill-proficiency">Proficiency</span>
+                <span class="skill-pct">86%</span>
+              </div>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill bar-purple" style="--skill-pct: 86%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ================= BOTTOM ROW: PROJECTS & CONTACT ================= -->
+    <div class="bento-row two-columns">
+
+      <!-- ================= 4. EDUCATION & ACADEMIC JOURNEY BENTO CARD ================= -->
+      <section class="bento-card education-card" id="education">
+        <div class="education-header">
+          <div class="header-left">
+            <span class="section-tag">Academic Milestones</span>
+            <h2 class="card-heading">Education & Qualifications</h2>
+            <p class="card-subheading">My educational path from matriculation to master's degree</p>
+          </div>
+          <div class="header-badge">
+            <span class="total-edu-badge"><i class="fa-solid fa-graduation-cap"></i> 4 Qualifications</span>
+          </div>
+        </div>
+
+        <!-- 4 Education Institutions Grid -->
+        <div class="education-grid">
+
+          <!-- 1. Post Graduation (MCA) -->
+          <div class="edu-item-card current-study-card">
+            <div class="edu-card-top">
+              <span class="edu-tag tag-mca">Post Graduation (MCA)</span>
+              <span class="edu-status-badge pursuing"><span class="pulse-dot"></span> Pursuing</span>
+            </div>
+            <h3 class="edu-inst-name">NIIS Institute of Business Administration</h3>
+            <p class="edu-degree">Master of Computer Applications</p>
+            <div class="edu-card-meta">
+              <span><i class="fa-regular fa-calendar"></i> 2025 – 2027</span>
+              <span><i class="fa-solid fa-location-dot"></i> Odisha, India</span>
+            </div>
+            <div class="edu-tags">
+              <span class="tag">MCA</span>
+              <span class="tag">Software Engineering</span>
+              <span class="tag">Databases</span>
+            </div>
+          </div>
+
+          <!-- 2. Graduation (BCA) -->
+          <div class="edu-item-card">
+            <div class="edu-card-top">
+              <span class="edu-tag tag-bca">Graduation (BCA)</span>
+              <span class="edu-status-badge completed"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            <h3 class="edu-inst-name">SVM Autonomous College, Jagatsinghpur</h3>
+            <p class="edu-degree">Bachelor of Computer Applications</p>
+            <div class="edu-card-meta">
+              <span><i class="fa-regular fa-calendar"></i> 2021 – 2024</span>
+              <span><i class="fa-solid fa-location-dot"></i> Jagatsinghpur</span>
+            </div>
+            <div class="edu-tags">
+              <span class="tag">BCA</span>
+              <span class="tag">Java</span>
+              <span class="tag">C / C++</span>
+              <span class="tag">DSA</span>
+            </div>
+          </div>
+
+          <!-- 3. +2 College -->
+          <div class="edu-item-card">
+            <div class="edu-card-top">
+              <span class="edu-tag tag-plus2">+2 Higher Secondary</span>
+              <span class="edu-status-badge completed"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            <h3 class="edu-inst-name">Adikabi Sarala Das College, Tirtol</h3>
+            <p class="edu-degree">Higher Secondary Examination (+2)</p>
+            <div class="edu-card-meta">
+              <span><i class="fa-regular fa-calendar"></i> 2019 – 2021</span>
+              <span><i class="fa-solid fa-location-dot"></i> Tirtol</span>
+            </div>
+            <div class="edu-tags">
+              <span class="tag">+2 CHSE</span>
+              <span class="tag">Science</span>
+              <span class="tag">Analytics</span>
+            </div>
+          </div>
+
+          <!-- 4. 10th School -->
+          <div class="edu-item-card">
+            <div class="edu-card-top">
+              <span class="edu-tag tag-school">10th Matriculation</span>
+              <span class="edu-status-badge completed"><i class="fa-solid fa-check"></i> Completed</span>
+            </div>
+            <h3 class="edu-inst-name">Jagannathpur Nodal High School, Tiran</h3>
+            <p class="edu-degree">Secondary School Examination (HSC)</p>
+            <div class="edu-card-meta">
+              <span><i class="fa-regular fa-calendar"></i> 2018 – 2019</span>
+              <span><i class="fa-solid fa-location-dot"></i> Tiran</span>
+            </div>
+            <div class="edu-tags">
+              <span class="tag">10th Board</span>
+              <span class="tag">Matriculation</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Projects Under Development Banner -->
+        <div class="projects-wip-box">
+          <div class="wip-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="wip-content">
+            <div class="wip-title-row">
+              <h4 class="wip-title">Projects Under Active Development 🚀</h4>
+              <span class="wip-badge">In Progress</span>
+            </div>
+            <p class="wip-text">
+              Currently engineering full-stack projects in Java, Python, and Modern Web during my MCA curriculum. Live projects will be published here soon!
+            </p>
+          </div>
+          <a href="https://github.com/nayaktulashi03" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm wip-btn">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub Profile</span>
+          </a>
+        </div>
+
+      </section>
+
+      <!-- ================= 5. GET IN TOUCH BENTO CARD ================= -->
+      <section class="bento-card contact-card" id="contact">
+        <div class="contact-header">
+          <h2 class="card-heading">Get In Touch</h2>
+          <p class="card-subheading">Let's discuss your project or opportunities</p>
+        </div>
+
+        <div class="contact-body">
+          <!-- Contact Left: 3D Character on Phone + Direct Info -->
+          <div class="contact-left">
+            <div class="contact-avatar-wrapper">
+              <img src="assets/images/contact-character.png" alt="Contact Tulashi Nayak" class="contact-avatar-img">
+            </div>
+
+            <!-- Quick Contact Information -->
+            <div class="contact-info-list">
+              <div class="contact-info-item" id="copyPhoneItem" title="Click to copy phone number">
+                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="info-text">
+                  <span class="info-label">Phone</span>
+                  <a href="tel:+918018259637" class="info-val">+91 8018259637</a>
+                </div>
+                <button class="copy-btn" aria-label="Copy phone number"><i class="fa-regular fa-copy"></i></button>
+              </div>
+
+              <div class="contact-info-item" id="copyEmailItem" title="Click to copy email address">
+                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="info-text">
+                  <span class="info-label">Email</span>
+                  <a href="mailto:nayaktulashi981@gmail.com" class="info-val">nayaktulashi981@gmail.com</a>
+                </div>
+                <button class="copy-btn" aria-label="Copy email address"><i class="fa-regular fa-copy"></i></button>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="info-text">
+                  <span class="info-label">Location</span>
+                  <span class="info-val">Odisha, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Right: Form -->
+          <div class="contact-right">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="text" id="firstName" name="firstName" class="form-input" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" id="lastName" name="lastName" class="form-input" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-input" placeholder="Email Address" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="Phone Number">
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-submit" id="submitBtn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Integrated Footer inside Contact Card matching screenshot layout -->
+        <footer class="card-footer">
+          <div class="footer-left">
+            <span class="footer-logo">Portfolio</span>
+            <span class="footer-role">MCA Candidate & Full Stack Developer</span>
+          </div>
+          <div class="footer-socials">
+            <a href="https://github.com/nayaktulashi03" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:nayaktulashi981@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+918018259637" title="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+          <div class="footer-right">
+            <p>© 2026 Made with <span class="heart">❤️</span> by <strong>Tulashi Nayak</strong></p>
+          </div>
+        </footer>
+
+      </section>
+
+    </div>
+
+  </div> <!-- /bento-wrapper -->
+
+
+
+
+  <!-- ================= CV DOWNLOAD / PREVIEW MODAL ================= -->
+  <div class="modal-overlay" id="resumeModal" aria-hidden="true">
+    <div class="modal-container resume-modal-container">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="section-tag">Curriculum Vitae</span>
+          <h2 class="modal-title"><i class="fa-solid fa-file-invoice"></i> Tulashi Nayak - Resume</h2>
+        </div>
+        <div class="modal-header-actions">
+          <button class="btn btn-primary btn-sm" id="printResumeBtn">
+            <i class="fa-solid fa-print"></i> Print / Save PDF
+          </button>
+          <button class="modal-close-btn" id="closeResumeModal" aria-label="Close Modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body resume-preview-body" id="resumePreview">
+        <!-- Interactive Resume Preview Document -->
+        <div class="resume-document">
+          <div class="resume-header">
+            <div>
+              <h1 class="resume-name">Tulashi Nayak</h1>
+              <p class="resume-title">MCA Candidate & Full Stack Developer</p>
+            </div>
+            <div class="resume-contact-details">
+              <p><i class="fa-solid fa-phone"></i> +91 8018259637</p>
+              <p><i class="fa-solid fa-envelope"></i> nayaktulashi981@gmail.com</p>
+              <p><i class="fa-solid fa-location-dot"></i> Odisha, India</p>
+            </div>
+          </div>
+
+          <hr class="resume-divider">
+
+          <div class="resume-section">
+            <h3 class="resume-section-title">Education</h3>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <strong>NIIS Institute of Business Administration</strong>
+                <span class="resume-date">2025 – 2027</span>
+              </div>
+              <p class="resume-degree">Master of Computer Applications (MCA) — Post Graduation</p>
+            </div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <strong>SVM Autonomous College, Jagatsinghpur</strong>
+                <span class="resume-date">2021 – 2024</span>
+              </div>
+              <p class="resume-degree">Bachelor of Computer Applications (BCA) — Graduation</p>
+            </div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <strong>Adikabi Sarala Das College, Tirtol</strong>
+                <span class="resume-date">2019 – 2021</span>
+              </div>
+              <p class="resume-degree">+2 Higher Secondary Examination</p>
+            </div>
+            <div class="resume-item">
+              <div class="resume-item-header">
+                <strong>Jagannathpur Nodal High School, Tiran</strong>
+                <span class="resume-date">2018 – 2019</span>
+              </div>
+              <p class="resume-degree">10th Matriculation Board Examination</p>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h3 class="resume-section-title">Technical Skills</h3>
+            <p><strong>Languages:</strong> Java, Python, C, C++, JavaScript (ES6+), SQL</p>
+            <p><strong>Web Development:</strong> HTML5, CSS3, Modern JavaScript, RESTful APIs, Responsive Bento UI</p>
+            <p><strong>Databases:</strong> MySQL, SQL, MongoDB</p>
+            <p><strong>Tools & Platforms:</strong> Git, GitHub, VS Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification" role="alert">
+    <div class="toast-icon"><i class="fa-solid fa-check"></i></div>
+    <div class="toast-message" id="toastMessage">Action completed successfully!</div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
